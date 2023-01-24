@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header */
+
+header{
+    width:100%;
+    height: 80px;
+    background:rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 0px;
+}
+
+.logo{
+    margin-right: 200px;
+} 
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-bar ul li a{
+    display: block;
+    color:rgb(104, 104, 104);
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+      
+}
+
+.nav-btn{
+    width: 180px;
+    height:50px;
+    background: #B68C5A;
+    border-radius: 10px; 
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:aliceblue;
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 900px) {
+   .hamburger {
+    display: block;
+    cursor: pointer;
+   }
+
+   .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin: 6px 0;
+    
+   }
+
+   .nav-bar{
+    display:none;
+   }
+
+}
+
+/* banner section styles */
+
+.form{
+    display:flex;
+    gap: 10px;
+}
+
+.banner-btn{
+    width: 180px;
+    height:50px;
+    background: #B68C5A;
+    border-radius: 10px; 
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:aliceblue;
+    font-weight: bold;
+
+}
+
+.input-box{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 215, 215);
+    font-weight: 300;
+}
+
+.banner{
+    background: url(../images/banner.png);
+    min-height: 55vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.banner-heading{
+    padding-top: 150px;
+    
+    color:aliceblue;
+    text-align: center;
+}
+
+.banner-description{
+    padding-top: 20px;
+    
+    color:aliceblue;
+    text-align: center;
+}
+
+form{
+    padding-top: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* legal area styles */
+
+.legal-practice-area{
+    margin-top: 120px;
+    text-align: center;
+    
+}
+
+.practice-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.practice-description{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(112, 112, 112);
+
+}
+
+.practice-content{
+    margin-top: 80px;
+    background: white;
+    
+}
+
+.card-box{
+height: 400px;
+border: 0.5px solid rgb(112, 112, 112);
+
+
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-datail{
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(139, 139, 139);
+    font-weight: 400;
+
+
+}
+
+/* client section */
+
+
+
+.client-section{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.client-details{
+    margin-bottom: 30px;
+}
+
+.client-title{
+    font-size: 45px;
+}
+
+.client-description{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    font-family: 'Poppins', sans-serif;
+}
+
+.client-image{
+    width: 120px;
+    height: 120px;
+    border:solid white;
+    border-radius: 50%;
+}
+
+.client-id{
+    color: rgb(194, 194, 194);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.client-description{
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/* question section */
+
+.Questions-container{
+margin-top: 100px;
+padding: 50px 50px;
+}
+
+.accordion{
+height: 600px;
+width: 550px;
+border: 1px solid lightblue;
+padding: 20px 20px;
+border-radius: 10px;
+   
+
+}
+
+
+.question{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+
+.accordion-item{
+padding: 5px 0px;
+}
+
+.question-image{
+margin-top: 20px;
+}
+
+.question-heading{
+text-align: center;
+margin-top: 20px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+margin-left: 30px;
+}
+
+.question-detail{
+text-align: center;
+color: rgb(194, 194, 194);
+margin-top: 15px;
+
+}
+
+
+
+
+
+
+/* footer */
+
+.container{
+    background-color: rgb(14, 14, 14);
+    height: 350px;
+    height: 100%;
+
+}
+
+
+.footer-container{
+    width:100%;
+    margin-top: 100px;
+}
+
+.footer-text{
+    color:aliceblue;
+    margin-top: 100px;
+    
+}
+
+.part-1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.part-1 p{
+    color:aliceblue;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.part-2{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.part-2 h4{
+    color:aliceblue;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.part-2 ul li{
+    color:aliceblue;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-weight: 300;
+    
+}
+
+.part-3{
+    margin-top: 120px;
+    margin-right: 20px;
+}
+
+.part-3 h4{
+    color:aliceblue;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.part-3 ul li{
+    color:aliceblue;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    font-weight: 300;
+
+}
+
+.part-4{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.part-4 h4{
+    color:aliceblue;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.part-detail{
+    color:rgb(177, 177, 177);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.input-place{
+    width:  200px;
+    height: 50px;
+    font-weight: 300;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+

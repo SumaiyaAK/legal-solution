@@ -1,0 +1,156 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+
+
+header{
+    width:100%;
+    height: 80px;
+    background:rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 0px;
+}
+
+.logo{
+    margin-right: 200px;
+} 
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-bar ul li a{
+    display: block;
+    color:rgb(104, 104, 104);
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+      
+}
+
+.nav-btn{
+    width: 180px;
+    height:50px;
+    background: #B68C5A;
+    border-radius: 10px; 
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:aliceblue;
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 900px) {
+   .hamburger {
+    display: block;
+    cursor: pointer;
+   }
+
+   .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin: 6px 0;
+    
+   }
+
+   .nav-bar{
+    display:none;
+   }
+
+}
+
+
+
+
+/* section main  */
+
+.about-heading{
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+
+.card-image{
+    background-image: url(../images/banner2.png);
+    height: 250px;
+    width: 400px;
+    
+    
+
+
+}
+
+.sub-image{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    margin: 0px 135px;
+    margin-top: -60px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+
+.card-body{
+    text-align: center;
+    box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.021), 0px 24px 24px 0px rgba(94, 94, 94, 0.5);
+    border-radius: 15px;
+}
+
+.card-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text{
+    margin-top: 30px;
+    padding: 0px 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .card{
+        margin-left: 25px;
+    }
+ 
+ }
